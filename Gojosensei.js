@@ -1306,10 +1306,34 @@ case 'when':
 					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
 GojoMdNx.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
 					break
-case 'wangy':
-              if (!text) return replay(`Use Text, Example : ${prefix + command} hinata`)
+case 'استمارة':
+              if (!text) return replay(`${prefix + command} الاستمارة`)
               qq = q.toUpperCase()
-              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ❤️ ❤️ ❤️ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ❤️ ❤️ ❤️ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
+              awikwok = ``
+             reply(awikwok)
+							break
+case 'استمارة':
+              if (!text) return replay(`${prefix + command} الاستمارة`)
+              qq = q.toUpperCase()
+              awikwok = ``
+             reply(awikwok)
+							break
+case 'استمارة':
+              if (!text) return replay(`${prefix + command} الاستمارة`)
+              qq = q.toUpperCase()
+              awikwok = ``
+             reply(awikwok)
+							break
+case 'استمارة':
+              if (!text) return replay(`${prefix + command} الاستمارة`)
+              qq = q.toUpperCase()
+              awikwok = ``
+             reply(awikwok)
+							break
+case 'استمارة':
+              if (!text) return replay(`${prefix + command} الاستمارة`)
+              qq = q.toUpperCase()
+              awikwok = ``
              reply(awikwok)
               break
 case 'checkdeath':
