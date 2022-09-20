@@ -1306,8 +1306,8 @@ case 'when':
 					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
 GojoMdNx.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
 					break
-case 'القوانين':
-              if (!text) return replay(`${prefix + command} الاستمارة`)
+case 'قوانين':
+              if (!text) return replay(`${prefix + command} .`)
               qq = q.toUpperCase()
               awikwok = `❋ ──━─━─ ⊹⊱☣️⊰⊹ ─━─━── ❋
 
@@ -1404,8 +1404,8 @@ case 'القوانين':
 ❋ ──━─━─ ⊹⊱☣️⊰⊹ ─━─━── ❋`
              reply(awikwok)
 							break
-case 'قوانين':
-              if (!text) return replay(`${prefix + command} الاستمارة`)
+case 'القوانين':
+              if (!text) return replay(`${prefix + command} .`)
               qq = q.toUpperCase()
               awikwok = `❋ ──━─━─ ⊹⊱☣️⊰⊹ ─━─━── ❋
 
@@ -1503,7 +1503,7 @@ case 'قوانين':
              reply(awikwok)
 							break
 case 'استمارة':
-              if (!text) return replay(`${prefix + command} الاستمارة`)
+              if (!text) return replay(`${prefix + command} .`)
               qq = q.toUpperCase()
               awikwok = `*• إسـتمارة الدخــول 📜*
      *‏『𝐀𝐋-𝐃𝐄𝐕‹☣️›𝐊𝐈𝐍𝐆𝐃𝐎𝐌』*
@@ -1537,7 +1537,7 @@ case 'استمارة':
              reply(awikwok)
 							break
 case 'الاستمارة':
-              if (!text) return replay(`${prefix + command} الاستمارة`)
+              if (!text) return replay(`${prefix + command} .`)
               qq = q.toUpperCase()
               awikwok = `*• إسـتمارة الدخــول 📜*
      *‏『𝐀𝐋-𝐃𝐄𝐕‹☣️›𝐊𝐈𝐍𝐆𝐃𝐎𝐌』*
@@ -1571,7 +1571,7 @@ case 'الاستمارة':
              reply(awikwok)
 							break
 case 'الترحيب':
-              if (!text) return replay(`${prefix + command} الاستمارة`)
+              if (!text) return replay(`${prefix + command} .`)
               qq = q.toUpperCase()
               awikwok = `┍─━─━─ ⌑︎☣️⌑︎ ─━─━─┑
 
